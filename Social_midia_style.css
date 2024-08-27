@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(224, 172, 172);
+}
+.organisaBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tamanhoImagem{
+    width: 100%;
+    height: 100vh;
+}
+.icon{
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.organisaImagemBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+   border: 2px solid rgb(35, 219, 18);
+   background-color: rgb(63, 144, 182);
+   box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.452);
+   margin-left: 8px;
+   width: 150px;
+   height: 54px;
+   font-size: 1.5em;
+   cursor: pointer;
+   color: rgb(252, 252, 252);
+}
+.botoes:hover{
+    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.514);
+    width: 150px;
+    height: 40;
+    margin-left: 18px;
+}
+.organisaLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.514);
+    border: 2px solid rgba(17, 228, 35, 0.377);
+    background-color: rgb(26, 129, 160);
+    border-radius: 100px;
+
+    
+}
+.logoTipo{
+    width: 150px;
+   
+}
+.fundoPopup{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(195, 220, 236, 0.774);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999999999999999;
+}
